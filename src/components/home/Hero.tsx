@@ -17,7 +17,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
         <div className="absolute inset-x-0 bottom-0 space-y-4 px-6 pb-10 text-white">
-          <p className="text-xs font-semibold tracking-[0.25em] text-brand">
+          <p className="text-xs font-semibold tracking-[0.25em] text-white">
             NUEVA COLECCIÓN 2026
           </p>
           <h1 className="font-display text-4xl leading-tight font-black italic">

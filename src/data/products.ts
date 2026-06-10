@@ -58,6 +58,42 @@ export const products: Product[] = [
     featured: true,
   },
   {
+    id: "top-essential",
+    slug: "top-essential-mujer",
+    name: "Top Essential",
+    category: "tops",
+    price: 59900,
+    description: [
+      "Top deportivo de tiras ajustables con soporte cómodo y tela suave de alta elasticidad. Su corte limpio se adapta al cuerpo y acompaña cada movimiento sin marcar.",
+      "Un básico imprescindible de la colección MEFIT: perfecto para entrenar, hacer yoga o combinar con tus shorts y leggings favoritos.",
+    ],
+    colors: [
+      { name: "Negro", slug: "negro", image: "/products/top-negro.jpeg" },
+      { name: "Blanco", slug: "blanco", image: "/products/top-blanco.jpeg" },
+      { name: "Lila", slug: "lila", image: "/products/top-lila.jpeg" },
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    featured: true,
+  },
+  {
+    id: "top-active",
+    slug: "top-active-mujer",
+    name: "Top Active",
+    category: "tops",
+    price: 64900,
+    description: [
+      "Tonos con personalidad para entrenar con actitud. El Top Active suma soporte y libertad de movimiento en un diseño femenino de tiras finas ajustables.",
+      "Tela ligera y transpirable que se siente fresca durante todo el entrenamiento.",
+    ],
+    colors: [
+      { name: "Vinotinto", slug: "vinotinto", image: "/products/top-vinotinto.jpeg" },
+      { name: "Azul", slug: "azul", image: "/products/top-azul.jpeg" },
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    badge: "nuevo",
+    featured: true,
+  },
+  {
     id: "pantalon-training",
     slug: "pantalon-training-hombre",
     name: "Pantalón Training",
@@ -125,6 +161,11 @@ export const categories = [
     slug: "pantalones-hombre",
     name: "Pantalones Hombre",
     image: "/products/pantalon-trio-azul.jpeg",
+  },
+  {
+    slug: "tops",
+    name: "Tops",
+    image: "/products/top-lila.jpeg",
   },
   {
     slug: "ofertas",

@@ -4,7 +4,7 @@ import { categories } from "@/data/products";
 
 export default function Categories() {
   return (
-    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5">
+    <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-5">
       {categories.map((cat) => (
         <Link
           key={cat.slug}

@@ -1,4 +1,4 @@
-export type CategorySlug = "shorts-mujer" | "pantalones-hombre" | "ofertas";
+export type CategorySlug = "shorts-mujer" | "pantalones-hombre" | "tops" | "ofertas";
 
 export type Badge = "oferta" | "nuevo" | "agotado" | "mas-vendido";
 
