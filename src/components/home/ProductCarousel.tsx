@@ -21,7 +21,7 @@ export default function ProductCarousel({ products }: { products: Product[] }) {
         className="no-scrollbar flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth"
       >
         {products.map((p) => (
-          <div key={p.id} className="w-[70%] shrink-0 snap-start sm:w-[45%] lg:w-[23%]">
+          <div key={p.id} className="w-[48%] shrink-0 snap-start sm:w-[45%] lg:w-[23%]">
             <ProductCard product={p} />
           </div>
         ))}
